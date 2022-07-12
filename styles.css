@@ -1,0 +1,14 @@
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    margin-bottom: 150px;
+}
+
+.ui-accordion .ui-accordion-content{
+    max-height: 400px;
+}

@@ -1,0 +1,470 @@
+{
+  "title": "Medizinische/r Praxisassistent/in",
+  "name": "medicalPracticeAssistant",
+  "sectorId": 604,
+  "toolTipText": "MPA",
+  "data": [
+    {
+      "title": "Fachgebiet",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["sehr viel Erfahrung", "viel Erfahrung", "wenig Erfahrung", "keine Erfahrung"],
+        "others": "expertiseOthers",
+        "options": [
+          {
+            "title": "Allgemeine Innere Medizin",
+            "name": "commonInnerMedicine"
+          },
+          {
+            "title": "Urologie / Nephrologie",
+            "name": "urology"
+          },
+          {
+            "title": "Gynäkologie / Geburtshilfe",
+            "name": "gynacology"
+          },
+          {
+            "title": "Orthopädie / Traumatologie",
+            "name": "traumatology"
+          },
+          {
+            "title": "Kardiologie",
+            "name": "cariology"
+          },
+          {
+            "title": "Gastroenterologie",
+            "name": "gastroenterology"
+          },
+          {
+            "title": "Hämatologie / Onkologie",
+            "name": "oncology"
+          },
+          {
+            "title": "Dermatologie",
+            "name": "dermatology"
+          },
+          {
+            "title": "Plastisch-Rekonstruktive und Ästhetische Chirurgie",
+            "name": "aestheticSurgery"
+          },
+          {
+            "title": "Hals-Nasen-Ohrenheilkunde",
+            "name": "tne"
+          },
+          {
+            "title": "Angiologie und Phlebologie",
+            "name": "angiology"
+          },
+          {
+            "title": "Augenheilkunde",
+            "name": "eyeCare"
+          },
+          {
+            "title": "Kinder- und Jugendmedizin",
+            "name": "childAndYouthMedicine"
+          },
+          {
+            "title": "Diabetologie und Endokrinologie",
+            "name": "endocrinology"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sprechstundenassistenz",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "talkHourOthers",
+        "options": [
+          {
+            "title": "Vitalparameter kontrollieren",
+            "name": "checkVitalParams"
+          },
+          {
+            "title": "Intramuskuläre, subkutane und intrakutane Injektionen",
+            "name": "injections"
+          },
+          {
+            "title": "Blutentnahme kapillär und venös",
+            "name": "bloodTaking"
+          },
+          {
+            "title": "Infusionen verabreichen",
+            "name": "giveInfusions"
+          },
+          {
+            "title": "Durchführung von Wundbehandlungen",
+            "name": "woundTreatment"
+          },
+          {
+            "title": "Selbstständiges Anlegen von Fixationen und Verbänden",
+            "name": "applyFixations"
+          },
+          {
+            "title": "Bewirtschaftung der Praxisapotheke",
+            "name": "managePracticePharmacy"
+          },
+          {
+            "title": "Medikamentengebrauch und spezifische Therapiemassnahmen instruieren",
+            "name": "instructOnTherapyMeasures"
+          },
+          {
+            "title": "Untersuchungszimmer und Praxisinventar vorbereiten",
+            "name": "doThePracticeInventory"
+          },
+          {
+            "title": "Wiederaufbereitung von Medizinprodukten",
+            "name": "recycleMedicalProducts"
+          },
+          {
+            "title": "Manuelle / Maschinelle Aufbereitung von Endoskopen",
+            "name": "manualRefurbishOfEndoscopes"
+          },
+          {
+            "title": "Analysegeräte bereitstellen, sowie fachgerechte Reinigung und Bedienung",
+            "name": "deployAnalyticDevices"
+          },
+          {
+            "title": "Verbrauchsmaterialien bewirtschaften und internes Bestellsystem bedienen",
+            "name": "handleInternalOrderingSystem"
+          },
+          {
+            "title": "Grundsätze des Arbeitsschutzes und der Hygiene einhalten",
+            "name": "basicHygiene"
+          },
+          {
+            "title": "Patientenproben vorschriftsgemäss bearbeiten, lagern und/oder weiterleiten",
+            "name": "handleProbes"
+          },
+          {
+            "title": "Basic-life-support",
+            "name": "basicLifeSupport"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Labordiagnostik",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "labDiagonsticsOther",
+        "options": [
+          {
+            "title": "Analysegeräte für klinische Chemie",
+            "name": "analyticalDevicesForClinicalChemistry",
+            "type": "heading",
+            "inDB": false
+          },
+          {
+            "title": "Afinion (Abbott)",
+            "name": "afinion"
+          },
+          {
+            "title": "Reflotron (Roche)",
+            "name": "reflotron"
+          },
+          {
+            "title": "Eurolyser (Sysmex)",
+            "name": "eurolyser"
+          },
+          {
+            "title": "Abaxis Piccolo (Sysmex)",
+            "name": "abaxisPiccolo"
+          },
+          {
+            "title": "Dri-Chem (Fuji)",
+            "name": "driChem"
+          },
+          {
+            "title": "Cobas (Roche)",
+            "name": "cobas"
+          },
+          {
+            "title": "Quick",
+            "name": "quick"
+          },
+          {
+            "title": "Weitere",
+            "name": "clinicalChemistryFurther",
+            "type": "further"
+          },
+          {
+            "title": "Analysegeräte für Urin/Stuhldiagnostik",
+            "name": "analyticalDevicesForUrineStoolDiagonstics",
+            "type": "heading",
+            "inDB": false
+          },
+          {
+            "title": "Clinitek (Siemens)",
+            "name": "clinitek"
+          },
+          {
+            "title": "Urisys 1100 (Roche)",
+            "name": "urisys1100"
+          },
+          {
+            "title": "Urinstix / Urinssediment",
+            "name": "urinstix"
+          },
+          {
+            "title": "Urikult",
+            "name": "urikult"
+          },
+          {
+            "title": "Hämokult",
+            "name": "haemokult"
+          },
+          {
+            "title": "Weitere",
+            "name": "urineDiagnosticsFurther",
+            "type": "further"
+          },
+          {
+            "title": "Laboranalysen durchführen und protokollieren",
+            "name": "doLabAnalyticsAndProtocols"
+          },
+          {
+            "title": "Durchführung der gebräuchlichen Prüfmethode im Praxislabor, einschl. der internen Qualitätssicherung",
+            "name": "executeCommonTestsAndQA"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Elektrokardiogramm / Lungenfunktionsprüfung",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "electroCardiogramOthers",
+        "options": [
+          {
+            "title": "Ruhe-EKG durchführen",
+            "name": "calmEKG"
+          },
+          {
+            "title": "Langzeit-EKG durchführen",
+            "name": "longtimeEKG"
+          },
+          {
+            "title": "Belastungs-EKG durchführen",
+            "name": "pressureEKG"
+          },
+          {
+            "title": "LUFU – Lungenfunktionsprüfung (und Spirometrie) durchführen",
+            "name": "lufu"
+          },
+          {
+            "title": "Peak Flow Messung",
+            "name": "peakFlowMeasure"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Röntgendiagnostik",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "xRayDiagnosticsOthers",
+        "options": [
+          {
+            "title": "Gerätschaften für bildgebende Diagnostik prüfen, bedienen, reinigen und pflegen",
+            "name": "checkAndUseDevices"
+          },
+          {
+            "title": "Röntgenaufnahmen im Niedrigdosisbereich (Thorax und Extremitäten) durchführen",
+            "name": "doXRays"
+          },
+          {
+            "title": "MRI (Magnetresonanztomographie)",
+            "name": "mri"
+          },
+          {
+            "title": "«erweiterte konventionelle Aufnahmetechniken» Röntgenaufnahmen im mittleren Dosisbereich (Abdomen, Becken, Hüften und Wirbelsäule) durchführen",
+            "name": "advancedConventionalRecordings"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Fachspezifische Untersuchungen / Kleinchirurgische Assistenz",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "machineCodeNameForOthersField",
+        "options": [
+          {
+            "title": "Zystoskopie vorbereiten und assistieren",
+            "name": "cystoscopy"
+          },
+          {
+            "title": "Gastroskopie vorbereiten und assistieren",
+            "name": "gastroscopy"
+          },
+          {
+            "title": "Koloskopie vorbereiten und assistieren",
+            "name": "koloscopy"
+          },
+          {
+            "title": "Gynäkologische Untersuchung vorbereiten und assistieren",
+            "name": "gynacologicalCheck"
+          },
+          {
+            "title": "Hör- und Sehtests vorbereiten und assistieren",
+            "name": "listenAndVisionChecks"
+          },
+          {
+            "title": "Inhalationen durchführen",
+            "name": "inhalations"
+          },
+          {
+            "title": "Ohrspülungen durchführen",
+            "name": "earCleaning"
+          },
+          {
+            "title": "Kleinchirurgische Eingriffe vorbereiten und assistieren",
+            "name": "smallSurgery"
+          },
+          {
+            "title": "Instrumentenkenntnisse",
+            "name": "knowThemInstruments"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Praxisadministration",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "practiceAdministrationOthers",
+        "options": [
+          {
+            "title": "Zehnfinger-Tastschreibmethode anwenden",
+            "name": "tenFingerMethod"
+          },
+          {
+            "title": "Arbeitsvorgänge beschreiben und Checklisten erstellen",
+            "name": "checklists"
+          },
+          {
+            "title": "Patientenaufnahme",
+            "name": "patientRecording"
+          },
+          {
+            "title": "Anlegen und Führen der Patientendossiers, sowie Archivpflege",
+            "name": "filesAndArchive"
+          },
+          {
+            "title": "Informationen einholen, beurteilen und weiterleiten",
+            "name": "gatherInformation"
+          },
+          {
+            "title": "Patienteninstruktion für interne und/oder externe Behandlungen/Eingriffe",
+            "name": "patientInstruction"
+          },
+          {
+            "title": "Führung und Planung der Praxisagenda",
+            "name": "leadingAndPlaning"
+          },
+          {
+            "title": "Entgegennehmen und Erledigen von telefonischen Anfragen",
+            "name": "phoneService"
+          },
+          {
+            "title": "Leistungen erfassen",
+            "name": "serviceTracking"
+          },
+          {
+            "title": "Rezepte und Formulare vorbereiten",
+            "name": "handleForms"
+          },
+          {
+            "title": "Medizinische Terminologie anwenden und Fachausdrücke erklären",
+            "name": "explainMedicine"
+          },
+          {
+            "title": "Abrechnungswesen nach Grundlagen der TARMED-Abrechnung",
+            "name": "tarmed"
+          },
+          {
+            "title": "Abklärungen mit Versicherungen",
+            "name": "handleInsurance"
+          },
+          {
+            "title": "Posteingang und -ausgang sicherstellen",
+            "name": "inboxOutbox"
+          },
+          {
+            "title": "Medizinische Korrespondenz (z.B. Berichte ab Diktaphon)",
+            "name": "medicalCorrespondence"
+          },
+          {
+            "title": "Führung des Kassenbuches",
+            "name": "handleMoney"
+          },
+          {
+            "title": "Interdisziplinäre Zusammenarbeit",
+            "name": "interdisciplinaryTeamwork"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Praxissoftwaresystem",
+      "ratingTable": {
+        "title": "",
+        "type": "fourRatings",
+        "ratingCaptions": ["täglich", "1x / Woche", "1x / Monat", "nie"],
+        "others": "clinicSoftwareOthers",
+        "options": [
+          {
+            "title": "Aeskulap",
+            "name": "aeskulap"
+          },
+          {
+            "title": "KISIM",
+            "name": "kisim"
+          },
+          {
+            "title": "Vitodata",
+            "name": "vitodata"
+          },
+          {
+            "title": "siMed",
+            "name": "siMed"
+          },
+          {
+            "title": "Pex II",
+            "name": "pexII"
+          },
+          {
+            "title": "Polypoint KIS",
+            "name": "polypointKis"
+          },
+          {
+            "title": "Excel",
+            "name": "excel"
+          },
+          {
+            "title": "Outlook",
+            "name": "outlook"
+          },
+          {
+            "title": "Word",
+            "name": "word"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Competence List name - readable",
+  "name": "programmCodeCompetenceName",
+  "sectorId": 123,
+  "data": [
+    {
+      "title": "Section name - readable",
+      "ratingTable": {
+        "title": "Title for the top left square",
+        "type": "fourRatings",
+        "ratingCaptions": ["caption 1 for rating", "caption 2 for rating", "caption 3 for rating", "caption 4 for rating"],
+        "others": "machineCodeNameForOthersField",
+        "options": [
+          {
+            "title": "Radable title",
+            "name": "machineCodeTitle"
+          },
+          {
+            "title": "Readable title 2",
+            "name": "machineCodeTitle2"
+          }
+        ]
+      }
+    }
+  ]
+}
